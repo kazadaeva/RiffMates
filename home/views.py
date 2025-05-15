@@ -11,4 +11,4 @@ def news(request):
         "ReffMates now has a news page!",
         "ReffMates has its first page"
     ]}
-    return render(requerst, "news.html", data)
+    return render(request, "news.html", data)
